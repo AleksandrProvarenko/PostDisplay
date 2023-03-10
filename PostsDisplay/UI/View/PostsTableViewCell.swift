@@ -165,12 +165,6 @@ class PostTableViewCell: UITableViewCell {
         }
     }
     
-   
-//
-//    @objc private func didTapFilter() {
-//
-//    }
-    
 
     private func configureConstraints() {
 

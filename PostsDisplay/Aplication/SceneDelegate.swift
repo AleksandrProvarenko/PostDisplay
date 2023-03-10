@@ -19,7 +19,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let navController = UINavigationController(rootViewController: MainPostsViewController())
-//        navController.navigationBar.prefersLargeTitles = true
         navController.navigationBar.tintColor = .label
         
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
